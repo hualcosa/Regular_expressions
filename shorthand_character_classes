@@ -1,0 +1,6 @@
+\w: the “word character” class represents the regex range [A-Za-z0-9_], and it matches a single uppercase character, lowercase character, digit or underscore
+\d: the “digit character” class represents the regex range [0-9], and it matches a single digit character
+\s: the “whitespace character” class represents the regex range [ \t\r\n\f\v], matching a single space, tab, carriage return, line break, form feed, or vertical tab
+\W: the “non-word character” class represents the regex range [^A-Za-z0-9_], matching any character that is not included in the range represented by \w
+\D: the “non-digit character” class represents the regex range [^0-9], matching any character that is not included in the range represented by \d
+\S: the “non-whitespace character” class represents the regex range [^ \t\r\n\f\v], matching any character that is not included in the range represented by \s
